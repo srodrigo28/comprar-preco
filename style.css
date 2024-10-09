@@ -102,7 +102,7 @@ form button{
         margin-bottom: 20px;
     }
     form, .product-list{
-        width: 80%;
+        width: 100%;
     }
     form input{
         max-width: 100%;
