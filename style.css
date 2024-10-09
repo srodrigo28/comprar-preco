@@ -1,0 +1,64 @@
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #34495e;
+    --background-color: #ecf0f1;
+    --card-background-color: #ffffff;
+    --shadow-color: rgba(0,0,0,0.0.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+form{
+    gap: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+form input{
+    flex-grow: 1;
+
+    padding: 12px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid var(--primary-color);
+}
+form button{
+    padding: 12px 25px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--background-color);
+}
+
+.product-list{
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    text-align: center;
+}
